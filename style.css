@@ -1,4 +1,333 @@
+body {
+  background-color: #5A7F69;
+  text-align: left;
+  margin: 0px;
+}
+
+h3 {
+  text-align:center;
+}
+h1 {
+  text-align:center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  border: 5px solid white;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+* {
+  text-color: white;
+  margin: 10px;
+  padding: 8px;
+  font-family: 'Yusei Magic', sans-serif;
+    color: #ffffff;
+}
 html {
   height: 100%;
   width: 100%;
+}
+
+.image-container {
+  text-align: center;
+}
+
+/* ADJUSTING POACHING PAGE */
+
+.cat.center2 {
+  width: 300px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white;
+}
+
+.panda.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.rhino.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+
+.buffalo.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+
+
+}
+
+.antelope.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.elephant.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.parrot.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+/* ADJUSTING DEFORESTATION PAGE */
+
+.chimpanzee.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.giantpanda.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.harpyeagle.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.javanhawkeagle.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+.forestowlet.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+/* OTHER IMAGE ADJUSTMENTS */
+
+.turtle.center2 {
+  width: 300px;
+  border-radius: 50%; /* Keep only this */
+  margin: 10px;
+  padding: 8px;
+  border: 5px solid white; /* Optional: makes border visible */
+  display: inline-block; /* Ensures proper alignment */
+}
+
+
+/* removes underline from the navbar */
+/* Add a black background color to the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #839788;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: FFF;
+  color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color: #2196F3;
+  color: #000;
+}
+
+
+#navbar {
+  display: flex;
+  background-color: #839788;
+  padding: 20px;
+  justify-content: center;
+  align-items: center; /* ✅ Ensures all navbar items align vertically */
+  font-size: 20px;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+} 
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#titlePage {
+  text-align: center;
+}
+.depression{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.nav-link:visited { text-decoration: none; }
+
+.nav-link:hover { text-decoration: none; }
+
+.nav-link:active { text-decoration: none; }
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; } 
+a:active { text-decoration: none; }
+
+
+.nav-link {
+  color: yellow;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #678d58;
+  min-width: 120px;
+  /* box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); */
+  /* z-index: 1; */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+ .dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+.dropdown .nav-link {
+  cursor: pointer;
+}
+
+/* to adjust things on the species page */
+
+.image-container img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; /* Optional for rounded corners */
+}
+
+.text-container {
+  max-width: 400px;
+}
+
+.dropdown-content a {
+  color: white; /* Ensures text is always white */
+  background-color: #678d58; /* Keeps background consistent */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Ensure background stays the same on hover */
+.dropdown-content a:hover {
+  background-color: #567246; /* Darker shade for hover */
+  color: white; /* Keeps text readable */
+}
+
+/* style the knife picture */
+img {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
 }
